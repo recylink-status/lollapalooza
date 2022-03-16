@@ -24,7 +24,7 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/recylink-status/lollapalooza/master/assets/logo-recylink.png
   name: Uptime Check Lollapalooza Apps
   introTitle: "Uptime check for Lollapalooza apps"
-  introMessage: **real-time** status
+  introMessage: real-time status
   navbar:
     - title: Home
       href: /lollapalooza
