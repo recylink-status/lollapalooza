@@ -19,8 +19,8 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
   theme: dark
-  baseUrl: /uptimelolla
-  logoUrl: https://raw.githubusercontent.com/rodrigoreyesrecylink/uptimelolla/master/assets/LOGO-RECYLINK-2018-COLOR-300x83.png
+  baseUrl: /lollapalooza
+  logoUrl: https://raw.githubusercontent.com/recylink-status/lollapalooza/master/assets/logo-recylink.png
   name: Uptime Check Lollapalooza Apps
   introTitle: "Uptime Check page for Lollapalooza Apps"
   introMessage: This is a sample status page which uses **real-time** data from Recylink
