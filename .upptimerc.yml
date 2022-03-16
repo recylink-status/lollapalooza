@@ -18,15 +18,18 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
+  favicon: https://www.recylink.com/favicon-32x32.png
   theme: dark
   baseUrl: /lollapalooza
   logoUrl: https://raw.githubusercontent.com/recylink-status/lollapalooza/master/assets/logo-recylink.png
   name: Uptime Check Lollapalooza Apps
-  introTitle: "Uptime Check page for Lollapalooza Apps"
-  introMessage: This is a sample status page which uses **real-time** data from Recylink
+  introTitle: "Uptime check for Lollapalooza apps"
+  introMessage: **real-time** status
   navbar:
     - title: Home
       href: /lollapalooza
+    - title: Dashboard
+      href: https://lollapalooza.recylink.com/  
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
