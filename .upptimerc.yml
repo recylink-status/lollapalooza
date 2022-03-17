@@ -2,6 +2,15 @@
 owner: recylink-status # Your GitHub organization or username, where this repository lives
 repo: lollapalooza # The name of this repository
 
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
+
 sites:
   - name: Dashboard Lollapalooza
     url: https://lollapalooza.recylink.com/
@@ -22,7 +31,7 @@ status-website:
   theme: dark
   baseUrl: /lollapalooza
   logoUrl: https://raw.githubusercontent.com/recylink-status/lollapalooza/master/assets/logo-recylink.png
-  name: Uptime Check Lollapalooza Apps
+  name: Recylink
   introTitle: "Uptime check for Lollapalooza apps"
   introMessage: real-time status
   navbar:
@@ -30,6 +39,8 @@ status-website:
       href: /lollapalooza
     - title: Dashboard
       href: https://lollapalooza.recylink.com/  
+    - title: Admin
+      href: https://admin-lollapalooza.recylink.com/login  
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
