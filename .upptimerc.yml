@@ -21,7 +21,6 @@ sites:
   - name: API Lollapalooza
     url: https://api-lollapalooza.recylink.com/v1/health
     method: GET
-  
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -38,9 +37,8 @@ status-website:
     - title: Home
       href: /lollapalooza
     - title: Dashboard
-      href: https://lollapalooza.recylink.com/  
+      href: https://lollapalooza.recylink.com/
     - title: Admin
-      href: https://admin-lollapalooza.recylink.com/login  
-
+      href: https://admin-lollapalooza.recylink.com/login
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
