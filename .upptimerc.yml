@@ -1,6 +1,7 @@
 # Change these first
 owner: recylink-status # Your GitHub organization or username, where this repository lives
 repo: lollapalooza # The name of this repository
+user-agent: recylink-status
 
 workflowSchedule:
   graphs: "*/20 * * * *"
