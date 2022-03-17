@@ -3,12 +3,12 @@ owner: recylink-status # Your GitHub organization or username, where this reposi
 repo: lollapalooza # The name of this repository
 
 workflowSchedule:
-  graphs: "0 0 * * *"
-  responseTime: "0 23 * * *"
+  graphs: "*/10 * * * *"
+  responseTime: "*/10 * * * *"
   staticSite: "0 1 * * *"
   summary: "0 0 * * *"
   updateTemplate: "0 0 * * *"
-  updates: "0 3 * * *"
+  updates: "*/10 * * * *"
   uptime: "*/5 * * * *"
 
 sites:
